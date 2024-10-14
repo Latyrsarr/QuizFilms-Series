@@ -1,0 +1,98 @@
+{
+    "title": "Movie and Series Questionnaire",
+    "minimum_score": 4,
+    "success_message": "Congratulations! You are a true cinephile!",
+    "failure_message": "Too bad! You should watch more movies and series.",
+    "questions": [
+        {
+            "question": "In which movie do we find the character Jack Dawson?",
+            "choices": ["Titanic", "The Lord of the Rings", "Inception", "Avatar"],
+            "correct_answer": "Titanic"
+        },
+        {
+            "question": "Which series features the character Walter White?",
+            "choices": [
+                "Breaking Bad",
+                "Stranger Things",
+                "Game of Thrones",
+                "The Walking Dead"
+            ],
+            "correct_answer": "Breaking Bad"
+        },
+        {
+            "question": "In which movie does Harry Potter first meet Lord Voldemort?",
+            "choices": [
+                "Harry Potter and the Sorcerer's Stone",
+                "Harry Potter and the Chamber of Secrets",
+                "Harry Potter and the Prisoner of Azkaban",
+                "Harry Potter and the Goblet of Fire"
+            ],
+            "correct_answer": "Harry Potter and the Sorcerer's Stone"
+        },
+        {
+            "question": "What is the name of the artificial intelligence in '2001: A Space Odyssey'?",
+            "choices": ["HAL 9000", "Siri", "Cortana", "Jarvis"],
+            "correct_answer": "HAL 9000"
+        },
+        {
+            "question": "Who plays the lead role in the BBC series 'Sherlock'?",
+            "choices": [
+                "Benedict Cumberbatch",
+                "David Tennant",
+                "Matt Smith",
+                "Tom Hiddleston"
+            ],
+            "correct_answer": "Benedict Cumberbatch"
+        },
+        {
+            "question": "Which actor portrays Iron Man in the MCU (Marvel Cinematic Universe)?",
+            "choices": [
+                "Robert Downey Jr.",
+                "Chris Evans",
+                "Mark Ruffalo",
+                "Chris Hemsworth"
+            ],
+            "correct_answer": "Robert Downey Jr."
+        },
+        {
+            "question": "In which movie does Leonardo DiCaprio play an explorer left for dead?",
+            "choices": [
+                "Inception",
+                "The Revenant",
+                "Shutter Island",
+                "Django Unchained"
+            ],
+            "correct_answer": "The Revenant"
+        },
+        {
+            "question": "Who directed the film 'Pulp Fiction'?",
+            "choices": [
+                "Martin Scorsese",
+                "Steven Spielberg",
+                "Quentin Tarantino",
+                "Francis Ford Coppola"
+            ],
+            "correct_answer": "Quentin Tarantino"
+        },
+        {
+            "question": "In 'Stranger Things', which character has telekinetic powers?",
+            "choices": [
+                "Mike Wheeler",
+                "Dustin Henderson",
+                "Eleven",
+                "Lucas Sinclair"
+            ],
+            "correct_answer": "Eleven"
+        },
+        {
+            "question": "Which film won the Oscar for Best Picture in 1994?",
+            "choices": [
+                "Forrest Gump",
+                "Pulp Fiction",
+                "The Shawshank Redemption",
+                "Four Weddings and a Funeral"
+            ],
+            "correct_answer": "Forrest Gump"
+        }      
+    ]
+}
