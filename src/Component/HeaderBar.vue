@@ -1,5 +1,5 @@
 <template>
-    <Header class="flex justify-between items-center bg-green-700 h-16 font-bold">
+    <header class="flex justify-between items-center bg-green-700 h-16 font-bold">
         <div class="space-x-10  text-xm ml-8">
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/play">Play</RouterLink>
@@ -12,7 +12,7 @@
             </select>
         </div>
         
-    </Header>
+    </header>
 </template>
 
 <script setup>
@@ -26,3 +26,46 @@ const changeLanguage = () => {
 }
 
 </script>
+
+
+<!-- <template>
+    <header class="flex flex-col bg-green-700 h-16text-xl">
+      <el-tabs class="flex-grow" v-model="activeTab" @tab-click="handleTabClick">
+        <el-tab-pane name="home">
+          <template #label>
+            <span class="font-bold text-xl text-white">Home</span>
+          </template>
+          <RouterLink to="/" class="h-full flex items-center"/>
+        </el-tab-pane>
+        <el-tab-pane name="play">
+          <template #label>
+            <span class="font-bold text-xl text-white">Play</span>
+          </template>
+          <RouterLink to="/play" class="h-full flex items-center"/>
+        </el-tab-pane>
+      </el-tabs>
+    </header>
+  </template>
+  
+  <script lang="ts" setup>
+  import { ref } from 'vue';
+  import { useRouter } from 'vue-router';
+  import type { TabsPaneContext } from 'element-plus';
+  
+  const activeTab = ref('home');
+  const router = useRouter();
+  
+  const handleTabClick = (tab: TabsPaneContext) => {
+    switch (tab.paneName) {
+      case 'home':
+        router.push('/');
+        break;
+      case 'play':
+        router.push('/play');
+        break;
+    }
+  };
+  </script>
+  <style>
+
+</style> -->
